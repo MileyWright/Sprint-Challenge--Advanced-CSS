@@ -1,1 +1,19 @@
 // Mixins Here
+
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.borderRadius{
+    border-radius:.5rem;
+}
+.buttonStyle(@width,@height,@button-bg,@color,@fontsize){
+    width: @width;
+    height:@height;
+    background-color: @button-bg;
+    color: @color;
+    font-size: @fontsize;
+}
